@@ -1,6 +1,10 @@
 {
-  "name": "",
-  "version": "",
+  "name": "CRM",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
   "description": "This repository contains source code for REST API of a sample CRM application.",
   "dependencies": {
     "body-parser": "^1.18.2",
